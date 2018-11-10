@@ -1,0 +1,37 @@
+body{
+  margin:2%;
+}
+
+nav ul{
+  list-style: none;
+}
+
+nav ul li{
+  display: inline;
+  border: 2px solid black;
+  border-bottom: none;
+  padding:5px;
+}
+
+.main-container{
+  padding: 2%;
+  border: 2px solid black;
+  margin-top:-12px;
+}
+
+.main-container .search-form input{
+  margin:0 1% 0 1%;
+  width:30%;
+  border: 2px solid black;
+}
+
+.main-container .search-form button{
+  width:5%;
+  background-color: white;
+  border: 2px solid black;
+  box-shadow: 2px 2px;
+}
+
+.main-container .search-form button:hover{
+  background-color: rgb(215, 214, 214);
+}
